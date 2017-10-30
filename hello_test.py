@@ -4,7 +4,7 @@ import unittest
 class MetamapAPITest(unittest.TestCase):
 
     def test_one(self):
-        assertEqual(true, false)
+        self.assertEqual(True, False)
 
 
 if __name__ == '__main__':
